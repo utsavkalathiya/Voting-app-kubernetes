@@ -16,7 +16,7 @@ This application allows users to vote between two options and view real-time res
 
 ```
 ┌─────────────┐      ┌─────────┐      ┌────────┐      ┌──────────────┐      ┌──────────────┐
-│   Voting    │─────▶│  Redis  │─────▶│ Worker │─────▶│  PostgreSQL  │◀─────│    Result    │
+│   Voting    │────▶│  Redis  │─────▶│ Worker │────▶│  PostgreSQL  │◀─────│    Result    │
 │     App     │      │         │      │        │      │              │      │     App      │
 │  (Python)   │      │ (Cache) │      │ (.NET) │      │  (Database)  │      │  (Node.js)   │
 └─────────────┘      └─────────┘      └────────┘      └──────────────┘      └──────────────┘
